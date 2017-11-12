@@ -1,0 +1,6 @@
+framework module Pods_quiz_1stAttempt {
+  umbrella header "Pods-quiz 1stAttempt-umbrella.h"
+
+  export *
+  module * { export * }
+}
