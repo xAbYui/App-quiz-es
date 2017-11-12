@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394D0D641FB81CF9008EA075 /* Customcell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D0D631FB81CF9008EA075 /* Customcell1TableViewCell.swift */; };
+		394D0D671FB8222B008EA075 /* kanji.png in Resources */ = {isa = PBXBuildFile; fileRef = 394D0D661FB8222B008EA075 /* kanji.png */; };
+		394D0D691FB82259008EA075 /* english.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 394D0D681FB82259008EA075 /* english.jpeg */; };
+		394D0D6B1FB8226F008EA075 /* sekai.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 394D0D6A1FB8226F008EA075 /* sekai.jpeg */; };
+		394D0D6D1FB82283008EA075 /* mame.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 394D0D6C1FB82283008EA075 /* mame.jpeg */; };
 		395DA5F91EECD9B10096B96E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395DA5F81EECD9B10096B96E /* AppDelegate.swift */; };
 		395DA5FB1EECD9B10096B96E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395DA5FA1EECD9B10096B96E /* ViewController.swift */; };
 		395DA5FE1EECD9B10096B96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395DA5FC1EECD9B10096B96E /* Main.storyboard */; };
@@ -54,6 +59,11 @@
 		0FE65204C2C573A9E190FC7E /* Pods-quiz 1stAttemptUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quiz 1stAttemptUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-quiz 1stAttemptUITests/Pods-quiz 1stAttemptUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		15696B9F6778988C5E6F6283 /* Pods-quiz 1stAttemptUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quiz 1stAttemptUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-quiz 1stAttemptUITests/Pods-quiz 1stAttemptUITests.release.xcconfig"; sourceTree = "<group>"; };
 		36A660B64BA1C88EE89C90C6 /* Pods_quiz_1stAttemptUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quiz_1stAttemptUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394D0D631FB81CF9008EA075 /* Customcell1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customcell1TableViewCell.swift; sourceTree = "<group>"; };
+		394D0D661FB8222B008EA075 /* kanji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanji.png; sourceTree = "<group>"; };
+		394D0D681FB82259008EA075 /* english.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = english.jpeg; sourceTree = "<group>"; };
+		394D0D6A1FB8226F008EA075 /* sekai.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sekai.jpeg; sourceTree = "<group>"; };
+		394D0D6C1FB82283008EA075 /* mame.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mame.jpeg; sourceTree = "<group>"; };
 		395DA5F51EECD9B00096B96E /* quiz 1stAttempt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quiz 1stAttempt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		395DA5F81EECD9B10096B96E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		395DA5FA1EECD9B10096B96E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +126,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		394D0D651FB821E8008EA075 /* 仮group PIC */ = {
+			isa = PBXGroup;
+			children = (
+				394D0D6C1FB82283008EA075 /* mame.jpeg */,
+				394D0D6A1FB8226F008EA075 /* sekai.jpeg */,
+				394D0D681FB82259008EA075 /* english.jpeg */,
+				394D0D661FB8222B008EA075 /* kanji.png */,
+			);
+			name = "仮group PIC";
+			sourceTree = "<group>";
+		};
 		395DA5EC1EECD9B00096B96E = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +165,7 @@
 				39C60A761F36B8B00067B303 /* quiz 1stAttempt.entitlements */,
 				39E42C9C1F3596CC007236BD /* Background pngたち */,
 				395DA62E1F11CA030096B96E /* blackFrame.png */,
+				39E42C9D1F3596F9007236BD /* 消滅都市の青背景.png */,
 				395DA5F81EECD9B10096B96E /* AppDelegate.swift */,
 				395DA5FA1EECD9B10096B96E /* ViewController.swift */,
 				395DA62A1EECDACB0096B96E /* QuestionViewController.swift */,
@@ -154,6 +176,7 @@
 				39C60A791F36C1770067B303 /* SignUpViewController.swift */,
 				39C60A7B1F36C1AE0067B303 /* LoginViewController.swift */,
 				39C60A741F35B3F90067B303 /* GroupFinderViewController.swift */,
+				394D0D631FB81CF9008EA075 /* Customcell1TableViewCell.swift */,
 				39C60A7D1F36C1FE0067B303 /* ListViewController.swift */,
 				39C60A811F3707120067B303 /* ListTableViewCell.swift */,
 				395DA5FC1EECD9B10096B96E /* Main.storyboard */,
@@ -186,7 +209,7 @@
 		39E42C9C1F3596CC007236BD /* Background pngたち */ = {
 			isa = PBXGroup;
 			children = (
-				39E42C9D1F3596F9007236BD /* 消滅都市の青背景.png */,
+				394D0D651FB821E8008EA075 /* 仮group PIC */,
 			);
 			name = "Background pngたち";
 			sourceTree = "<group>";
@@ -335,11 +358,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394D0D691FB82259008EA075 /* english.jpeg in Resources */,
 				395DA6031EECD9B10096B96E /* LaunchScreen.storyboard in Resources */,
+				394D0D6B1FB8226F008EA075 /* sekai.jpeg in Resources */,
 				39E42C9E1F3596F9007236BD /* 消滅都市の青背景.png in Resources */,
 				395DA6001EECD9B10096B96E /* Assets.xcassets in Resources */,
+				394D0D671FB8222B008EA075 /* kanji.png in Resources */,
 				395DA5FE1EECD9B10096B96E /* Main.storyboard in Resources */,
 				395DA62F1F11CA030096B96E /* blackFrame.png in Resources */,
+				394D0D6D1FB82283008EA075 /* mame.jpeg in Resources */,
 				39C60A781F36BF740067B303 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +558,7 @@
 				39C60A751F35B3F90067B303 /* GroupFinderViewController.swift in Sources */,
 				39C60A7C1F36C1AE0067B303 /* LoginViewController.swift in Sources */,
 				395DA6291EECDA8D0096B96E /* ResultViewController.swift in Sources */,
+				394D0D641FB81CF9008EA075 /* Customcell1TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
