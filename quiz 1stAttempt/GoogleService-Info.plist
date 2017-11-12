@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>277981035864-hfri3s81a50dah1f9nf3ej8vjk5esar9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.277981035864-hfri3s81a50dah1f9nf3ej8vjk5esar9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBXuHyN0mPEjuU55rQ2yUDVG-5ZN8TWSwk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>277981035864</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>yw.quiz-1stAttempt</string>
+	<key>PROJECT_ID</key>
+	<string>quizapp-1-8d168</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quizapp-1-8d168.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:277981035864:ios:deca7ff78befed1a</string>
+	<key>DATABASE_URL</key>
+	<string>https://quizapp-1-8d168.firebaseio.com</string>
+</dict>
+</plist>
